@@ -25,7 +25,8 @@ Este proyecto resuelve el problema de la **validación y formateo de datos en el
 ### Funciones obligatorias 
 1. validarCorreo(correo)
 Valida si una cadena cumple con el formato estándar de correo electrónico (usuario@dominio.com).
-2. soloLetras(texto)
+![image alt]( Aquí escriben el permalink de la imagen )
+3. soloLetras(texto)
 Comprueba que el texto contenga únicamente letras mayúsculas, minúsculas, vocales acentuadas (á, é, í, ó, ú), eñes y espacios.
 validarLongitud(numero, maxLongitud)
 Verifica que la longitud de un número o cadena de texto no sobrepase el límite máximo indicado.
