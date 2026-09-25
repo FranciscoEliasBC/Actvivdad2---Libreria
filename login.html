@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <div class="card">
+        <h2>Iniciar Sesión</h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="loginCorreo">Correo Electrónico:</label>
+                <input type="text" id="loginCorreo" placeholder="correo@ejemplo.com">
+                <span class="error-msg" id="err-login-correo">Ingrese un correo válido.</span>
+            </div>
+
+            <div class="form-group">
+                <label for="loginPassword">Contraseña:</label>
+                <input type="password" id="loginPassword">
+                <span class="error-msg" id="err-login-password">La contraseña no cumple con los criterios requeridos.</span>
+            </div>
+
+            <button type="submit">Ingresar</button>
+        </form>
+    </div>
+
+    <script src="js/utileria.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>
